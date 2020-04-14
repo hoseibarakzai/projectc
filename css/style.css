@@ -1,0 +1,340 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    color: #333333;
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+    color: #656262
+}
+
+p {
+    color: #6F6D6D;
+}
+
+a:hover {
+    color: #D61549;
+}
+
+header {
+    padding: 70px;
+}
+
+.sectiontitle {
+    padding-left: 70px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.betaal {
+    width: 1200px;
+}
+
+.totalen {
+    padding-right: 200px;
+}
+
+.info {
+    padding-right: 500px;
+}
+
+.debier {
+    padding-left: 150px;
+}
+
+.center {
+    text-align: center;
+}
+
+.bigtitle {
+    color: #ffff;
+    font-size: 34px;
+}
+
+.flex-container {
+    max-width: 100%;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+
+.betaal {
+    text-align: left;
+}
+
+.betaal button {
+    float: right;
+}
+
+.spullen {
+    margin-left: 150px;
+}
+
+.beoor {
+    float: right;
+}
+
+.beschrijving {
+    padding-bottom: 50px;
+}
+
+.force {
+    float: left;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.force p {
+    width: 30%;
+}
+
+.spullen2 {
+    margin-right: 150px;
+}
+
+.reviews {
+    margin-left: 100px;
+}
+
+.review {
+    color: #4B4B4B;
+    font-style: italic;
+}
+
+.ingredienten {
+    margin-right: 150px;
+}
+
+.bier-container {
+    max-width: 100%;
+    display: flex;
+    flex-flow: row;
+    padding: 40px;
+    text-align: center;
+}
+
+.artikel-container {
+    max-width: 100%;
+    display: flex;
+    flex-flow: row;
+    padding: 40px;
+}
+
+.purple {
+    background-color: #B9299D;
+}
+
+.overzicht {
+    background-image: url(../img/overzicht.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+.seizoen {
+    background-image: url(../img/home-seizoen.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 150px;
+    padding-bottom: 250px;
+}
+
+.seizoen h2 {
+    color: #606060;
+}
+
+.coupon {
+    text-align: center;
+}
+
+.seizoen h3 {
+    color: #B9299D;
+}
+
+.bag {
+    width: 30px;
+    margin-top: -15px;
+    transition: all 0.3s ease;
+}
+
+.bag:hover {
+    opacity: 0.5;
+}
+
+footer {
+    background-color: #807A7A;
+    color: #FFF;
+    padding: 80px;
+    text-align: center;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.wittelogo {
+    width: 30%;
+    transition: all 0.3s ease;
+}
+
+.icons {
+    width: 15%;
+    transition: all 0.3s ease;
+}
+
+.icons:hover,
+.wittelogo:hover {
+    opacity: 0.5;
+}
+
+.biertje {
+    transition: all 0.3s ease;
+    width: 50%;
+}
+
+.price {
+    font-weight: normal;
+}
+
+.biertje2 {
+    width: 200px;
+}
+
+.biertje3 {
+    width: 300px;
+}
+
+.biertje:hover {
+    opacity: 0.5;
+}
+
+
+.deals {
+    margin-right: 300px;
+}
+
+.hoofdmenu {
+    border-width: 0px;
+    position: fixed;
+    left: 0px;
+    top: 0;
+    height: 120px;
+    opacity: 0.95;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.hoofdmenu a {
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    padding: 34px 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-style: italic;
+    color: #6F6D6D
+}
+
+.nav {
+    position: absolute;
+    left: 200px;
+    top: 37px;
+    width: 940px;
+    height: 40px;
+}
+
+.active {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.disabled {
+    color: #999999;
+}
+
+.disabled:hover {
+    color: #e4e4e4;
+}
+
+.logo img {
+    border-width: 0px;
+    position: absolute;
+    left: 42px;
+    top: 12px;
+    width: 98px;
+    height: 84px;
+}
+
+.logo img {
+    border-width: 0px;
+    position: absolute;
+    left: 42px;
+    top: 12px;
+    width: 98px;
+    height: 84px;
+    transition: all 0.3s ease;
+}
+
+.logo img:hover {
+    opacity: 0.5;
+}
+
+.line {
+    border-width: 0px;
+    position: absolute;
+    left: 40px;
+    top: 90px;
+    opacity: 0.2;
+}
+
+section {
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 50px;
+}
+
+button {
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+    background-color: #EE8A2A;
+    color: #fff;
+    font-size: 16px;
+    font-style: italic;
+    text-transform: uppercase;
+    border: 3px solid #ffff;
+    padding: 5px 20px 5px 20px;
+}
+
+.ghost {
+    background-color: #ffff;
+    border: 3px solid #D3D2D2;
+    color: #6F6D6D;
+}
+
+.icon {
+    max-width: 30px;
+}
+
+.input-row{
+  position: relative;
+  min-width: 230px;
+  max-width: 330px;
+  margin: 20px 0;
+}
+  
+input{
+  display: block;
+  outline: none;
+    width: 400px;
+  height: 25px;
+}
+
+small{
+  color: red;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <title>Brouwerij Kwartje</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="hoofdmenu">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png"></a>
+            </div>
+            <div class="nav">
+                <a href="index.html">Home</a>
+                <a href="bier.html" class="active">Bier</a>
+                <a class="disabled">Over Ons</a>
+                <a class="disabled">Bar</a>
+                <a class="disabled">Contact</a>
+                <a href="winkelwagen.html"><img src="img/shopping-bag.png" class="bag"></a>
+            </div>
+            <div class="line">
+                <img src="img/line.png">
+            </div>
+        </nav>
+    </header>
+    <h2 class="sectiontitle">1. Gegevens</h2>
+    <div class="artikel-container">
+        <section>
+            <form>
+                <div class="input-row">
+                    <label for="name-label">Voornaam </label>
+                    <input id="name" name="name" type="text" required>
+                    <i class="fa fa-check complete" aria-hidden="true"></i>
+                    <small id="alert-name"></small>
+                </div>
+                <div class="input-row">
+                    <label for="lastname">Achternaam</label>
+                    <input id="lastname" name="lastname" type="text" required>
+                    <i class="fa fa-check complete" aria-hidden="true"></i>
+                    <small id="alert-lastname"></small>
+                </div>
+                <div class="input-row">
+                    <label id="email-label" for="email">E-mailadres</label>
+                    <input id="email" name="email" type="text" required>
+                    <i class="fa fa-check complete" aria-hidden="true"></i>
+                    <small id="alert-email"></small>
+                </div>
+                <div class="input-row">
+                    <label id="mobile-label" for="mobile">Mobiel </label>
+                    <input id="mobile" name="mobile" type="number" required>
+                    <i class="fa fa-check complete" aria-hidden="true"></i>
+                    <small id="alert-mobile"></small>
+                </div>
+                <div class="input-row">
+                    <label id="post-label" for="post">Postcode </label>
+                    <input id="post" name="post" type="text" required>
+                    <i class="fa fa-check complete" aria-hidden="true"></i>
+                    <small id="alert-post"></small>
+                </div>
+                <div class="input-row">
+                    <label id="huis-label" for="huis">Huisnummer </label>
+                    <input id="huis" name="huis" type="number" required>
+                    <i class="fa fa-check complete" aria-hidden="true"></i>
+                    <small id="alert-huis"></small>
+                </div>
+                <div class="input-row">
+                    <label id="toevoeging-label" for="email">Toevoeging </label>
+                    <input id="toevoeging" name="toevoeging" type="text" required>
+                    <i class="fa fa-check complete" aria-hidden="true"></i>
+                    <small id="alert-toevoeging"></small>
+                </div>
+                <div class="input-row">
+                    <label id="straatnaam-label" for="straatnaam">Straatnaam </label>
+                    <input id="straatnaam" name="straatnaam" type="text" required>
+                    <i class="fa fa-check complete" aria-hidden="true"></i>
+                    <small id="alert-straatnaam"></small>
+                </div>
+                <div class="input-row">
+                    <label id="stad-label" for="stad">Stad </label>
+                    <input id="stad" name="stad" type="text" required>
+                    <i class="fa fa-check complete" aria-hidden="true"></i>
+                    <small id="alert-stad"></small>
+                </div>
+                <div class="input-row">
+                    <label id="land-label" for="land">Land </label>
+                    <input id="land" name="land" type="text" required>
+                    <i class="fa fa-check complete" aria-hidden="true"></i>
+                    <small id="alert-land"></small>
+                </div>
+                <input type="radio" name="color" value="red"> Verzend naar dit adres
+                <input type="radio" name="color" value="blue"> Verzend naar ander adres
+                <input type="checkbox">
+                <label> Ik ga akkoord met de algemene voorwaarden</label>
+                <br>
+            </form>
+            <br>
+            <form action="verzendmethode.html" method="get">
+                <button type="submit"> Verder </button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <div class="flex-item">
+            <a href="#"><img src="img/ideal.png" class="icons"></a>
+            <a href="#"><img src="img/mastercard.png" class="icons"></a>
+            <a href="#"><img src="img/visa.png" class="icons"></a>
+            <a href="#"><img src="img/maestro.png" class="icons"></a>
+        </div>
+        <div class="flex-item">
+            <a href="index.html"><img src="img/logo-wit.png" class="wittelogo"></a>
+        </div>
+        <div class="flex-item">
+            <a href="#"><img src="img/twitter.png" class="icons"></a>
+            <a href="#"><img src="img/facebook.png" class="icons"></a>
+            <a href="#"><img src="img/instagram.png" class="icons"></a>
+        </div>
+    </footer>
+</body>
+<script src="js/form.js">
+</script>
+
+</html>

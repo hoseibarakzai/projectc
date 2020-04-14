@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <title>Brouwerij Kwartje</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="hoofdmenu">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png"></a>
+            </div>
+            <div class="nav">
+                <a href="index.html">Home</a>
+                <a href="bier.html" class="active">Bier</a>
+                <a class="disabled">Over Ons</a>
+                <a class="disabled">Bar</a>
+                <a class="disabled">Contact</a>
+                <a href="winkelwagen.html"><img src="img/shopping-bag.png" class="bag"></a>
+            </div>
+            <div class="line">
+                <img src="img/line.png">
+            </div>
+        </nav>
+    </header>
+    <h2 class="sectiontitle">Mijn winkeltas</h2>
+    <div class="artikel-container">
+        <section class="debier">
+            <img src="img/brutevol.png" class="biertje2">
+        </section>
+        <section class="info">
+            <h3>Brute Force</h3>
+            <p>€1,80</p>
+            <img src="img/3ster.png">
+            <p>Stuks: 1</p>
+        </section>
+    </div>
+    <img src="img/line.png">
+    <div class="artikel-container">
+        <section class="info">
+            <p>Totaal</p>
+            <label for="fname">Kortingscode</label>
+            <br>
+            <input type="text" id="fname" name="fname">
+        </section>
+        <section>
+            <p>€1,80</p>
+            <form action="bier.html" method="get">
+                <button type="submit" class="ghost"> Verder winkelen </button>
+            </form>
+            <form action="gegevens.html" method="get">
+                <button type="submit"> Bestel nu </button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <div class="flex-item">
+            <a href="#"><img src="img/ideal.png" class="icons"></a>
+            <a href="#"><img src="img/mastercard.png" class="icons"></a>
+            <a href="#"><img src="img/visa.png" class="icons"></a>
+            <a href="#"><img src="img/maestro.png" class="icons"></a>
+        </div>
+        <div class="flex-item">
+            <a href="index.html"><img src="img/logo-wit.png" class="wittelogo"></a>
+        </div>
+        <div class="flex-item">
+            <a href="#"><img src="img/twitter.png" class="icons"></a>
+            <a href="#"><img src="img/facebook.png" class="icons"></a>
+            <a href="#"><img src="img/instagram.png" class="icons"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
